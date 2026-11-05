@@ -19,7 +19,7 @@ A machine-readable **CycloneDX 1.6 JSON** companion to this page is produced by 
 <!-- BEGIN AICR-BOM -->
 ## Summary
 
-- Components: **58**
+- Components: **59**
 - Unique images: **160**
 - Distinct registries: **12**
 
@@ -42,6 +42,7 @@ _Rendering fidelity:_ `catalog-parity: charts are rendered with the shared recip
 | dranet | manifest | — | — | 1 |
 | dynamo-platform | helm | dynamo-platform | 1.4.2 | 1 |
 | gatekeeper | helm | gatekeeper/gatekeeper | 3.22.2 | 3 |
+| gateway-api-crds | manifest | — | — | 0 |
 | gcp-driver-installer | manifest | — | — | 3 |
 | gke-gb200-rdma | manifest | — | — | 2 |
 | gke-nccl-tcpxo | manifest | — | — | 4 |
@@ -157,6 +158,10 @@ _No images extracted._
 - `curlimages/curl:8.12.0`
 - `openpolicyagent/gatekeeper-crds:v3.22.2`
 - `openpolicyagent/gatekeeper:v3.22.2`
+
+### gateway-api-crds
+
+_No images extracted._
 
 ### gcp-driver-installer
 
