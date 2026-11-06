@@ -41,6 +41,7 @@ componentRefs: ## alphabetically sorted
   - name: cert-manager
   - name: dra-node-labeler
   - name: dynamo-platform
+  - name: gateway-api-crds
   - name: gcp-driver-installer
   - name: gpu-operator
   - name: grove
@@ -56,6 +57,7 @@ componentRefs: ## alphabetically sorted
   - name: prometheus-adapter
   - name: prometheus-operator-crds
 deploymentOrder:
+  - gateway-api-crds
   - agentgateway-crds
   - gcp-driver-installer
   - nodewright-operator
@@ -71,6 +73,7 @@ deploymentOrder:
   - dra-node-labeler
   - kai-scheduler
   - dynamo-platform
+  - k8s-aibom
   - nvidia-dra-driver-gpu
   - nvsentinel
   - prometheus-adapter
